@@ -87,3 +87,11 @@ a {
 .address-list {
   color: #ffffff;
 }
+
+/* Оформление кнопки */
+
+.button {
+  color: var(--secondary-text-color);
+  background-color: var(--primary-color);
+  border: none;
+}
