@@ -74,10 +74,16 @@ a {
   color: var(--headings-color);
 }
 
-.advantagies .title {
+.advantagies-list .title {
   color: var(--headings-color);
 }
 
-.team .title {
+.team-list .title {
   color: var(--headings-color);
+}
+
+/* Оформление адреса в футуре  */
+
+.address-list {
+  color: #ffffff;
 }
