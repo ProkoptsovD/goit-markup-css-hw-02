@@ -29,10 +29,32 @@ a {
 }
 
 .logo-second {
-  color: var(--secondary-text-color);
+  color: #000000;
 }
 
-.logo-second:hover,
-.logo-first:focus {
-  color: #000000;
+.logo-third {
+  color: #ffffff;
+}
+
+/* ОФормление навигации */
+.nav .nav-links:hover,
+.nav .nav-links:focus {
+  color: var(--primary-color);
+}
+
+.nav-links {
+  color: var(--headings-color);
+}
+
+.nav .nav-links.current {
+  color: #2196f3;
+}
+
+/* Оформление ссылок в секции контактов */
+.social .social-links:hover,
+.social .social-links:focus {
+  color: var(--primary-color);
+}
+.social-links {
+  color: var(--headings-color);
 }
