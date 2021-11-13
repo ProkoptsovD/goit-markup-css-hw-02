@@ -106,18 +106,18 @@ a {
 
 /* оформление кнопок в main страницы Portfolio */
 
-.submenu .link {
+.submenu .button {
   color: var(--headings-color);
   background-color: #f5f4fa;
 }
 
-.submenu .link:hover,
-.submenu .link:focus {
+.submenu .button:hover,
+.submenu .button:focus {
   color: var(--secondary-text-color);
   background-color: var(--primary-color);
 }
 
-.submenu .link.current {
+.submenu .button.current {
   color: var(--secondary-text-color);
   background-color: var(--primary-color);
 }
