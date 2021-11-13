@@ -22,6 +22,10 @@ a {
   color: var(--primary-text-color);
 }
 
+.list {
+  list-style: none;
+}
+
 /* Оформление логотипа */
 
 .logo-first {
@@ -51,10 +55,29 @@ a {
 }
 
 /* Оформление ссылок в секции контактов */
-.social .social-links:hover,
-.social .social-links:focus {
+.auth .auth-nav:hover,
+.auth .auth-nav:focus {
   color: var(--primary-color);
 }
 .social-links {
+  color: var(--headings-color);
+}
+
+/* Оформляем Hero */
+.hero-title {
+  color: #212121;
+}
+
+/* оформление секций */
+
+.section-title {
+  color: var(--headings-color);
+}
+
+.advantagies .title {
+  color: var(--headings-color);
+}
+
+.team .title {
   color: var(--headings-color);
 }
