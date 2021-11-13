@@ -95,3 +95,29 @@ a {
   background-color: var(--primary-color);
   border: none;
 }
+
+/* Оформление страницы Portfolio */
+
+/* Офорляем секции в main */
+
+.projects .example {
+  color: var(--headings-color);
+}
+
+/* оформление кнопок в main страницы Portfolio */
+
+.submenu .link {
+  color: var(--headings-color);
+  background-color: #f5f4fa;
+}
+
+.submenu .link:hover,
+.submenu .link:focus {
+  color: var(--secondary-text-color);
+  background-color: var(--primary-color);
+}
+
+.submenu .link.current {
+  color: var(--secondary-text-color);
+  background-color: var(--primary-color);
+}
