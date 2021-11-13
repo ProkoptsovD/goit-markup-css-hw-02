@@ -4,10 +4,35 @@
 /* Цвет текста белый #ffffff */
 /* цвет ссылок в футере rgba(255,255,255, .6) */
 
+/* Оформление элементов с обзим дизайном */
 :root {
   --primary-color: #2196f3;
   --headings-color: #212121;
   --primary-text-color: #757575;
   --secondary-text-color: #ffffff;
   --footer-links-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  color: var(--primary-text-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+/* Оформление логотипа */
+
+.logo-first {
+  color: var(--primary-color);
+}
+
+.logo-second {
+  color: var(--secondary-text-color);
+}
+
+.logo-second:hover,
+.logo-first:focus {
+  color: #000000;
 }
