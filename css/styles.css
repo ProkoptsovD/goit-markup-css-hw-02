@@ -208,7 +208,7 @@ body {
 
 /* оформление кнопок в main страницы Portfolio */
 
-.submenu .button {
+.submenu .submenu-button {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -221,15 +221,15 @@ body {
   border: none;
 }
 
-.submenu .button:hover,
-.submenu .button:focus {
+.submenu .submenu-button:hover,
+.submenu .submenu-button:focus {
   color: var(--secondary-text-color);
   background-color: var(--primary-color);
   border: none;
   cursor: pointer;
 }
 
-.submenu .button.current {
+.submenu ..submenu-button.current {
   color: var(--secondary-text-color);
   background-color: var(--primary-color);
 }
