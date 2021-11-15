@@ -11,6 +11,7 @@
   --primary-text-color: #757575;
   --secondary-text-color: #ffffff;
   --footer-links-color: rgba(255, 255, 255, 0.6);
+  --footer-bcg-color: #2f303a;
 }
 
 body {
@@ -152,11 +153,7 @@ body {
 
 /* желтый цвет в футере на время, чтоюы было видно белый цвет текста  */
 .footer-bcg {
-  background-color: rgb(221, 243, 26);
-}
-
-.address-list {
-  color: #ffffff;
+  background-color: var(--footer-bcg-color);
 }
 
 .footer-info .link {
@@ -171,6 +168,14 @@ body {
 .footer-info .link:hover,
 .footer-info .link:focus {
   background-color: var(--primary-color);
+  color: var(--secondary-text-color);
+}
+
+.footer-info > a {
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+
   color: var(--secondary-text-color);
 }
 
@@ -199,6 +204,7 @@ body {
 
 .projects .link {
   text-decoration: none;
+  color: var(--primary-text-color);
 }
 
 .projects .text {
