@@ -151,7 +151,6 @@ body {
 
 /* Оформление адреса в футуре  */
 
-/* желтый цвет в футере на время, чтоюы было видно белый цвет текста  */
 .footer-bcg {
   background-color: var(--footer-bcg-color);
 }
@@ -171,7 +170,7 @@ body {
   color: var(--secondary-text-color);
 }
 
-.footer-info > a {
+.footer-info .geo-link {
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
@@ -235,7 +234,7 @@ body {
   cursor: pointer;
 }
 
-.submenu ..submenu-button.current {
+.submenu .submenu-button.current {
   color: var(--secondary-text-color);
   background-color: var(--primary-color);
 }
